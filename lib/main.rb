@@ -13,7 +13,7 @@ Telegram::Bot::Client.run(token) do |bot|
       bot.api.send_message(chat_id: message.chat.id, text: "Hello, #{message.from.first_name}, you can use /help")
     when '/stop'
       bot.api.send_message(chat_id: message.chat.id, text: "Bye, #{message.from.first_name}")
-    when '/test'
+    when '/quote'
       quote = NewRandom.new.quotes.sample
       while quote.length <= 5
         quote = NewRandom.new.quotes.sample
