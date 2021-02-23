@@ -1,7 +1,8 @@
 require 'telegram/bot'
 require_relative '../lib/random'
-token = '1681412553:AAHlaXyUqAGqHfmdGPO2b3f8xhzGiZpzIjU'
-Telegram::Bot::Client.run(token) do |bot|
+require_relative '../token'
+
+Telegram::Bot::Client.run(TOKEN) do |bot|
   bot.listen do |message|
     case message.text
     when '/help'
