@@ -35,7 +35,7 @@
 
 - The first step is to run 'gem install rspec'(RSpec should be installed now)
 - The second step is to cd into the project folder
-- the third step is to run the command 'rspec spec/random_text.rb'
+- The third step is to run the command 'rspec spec/random_text.rb'
 - All tests are running now.
 
 
