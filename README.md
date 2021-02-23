@@ -3,7 +3,7 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-ruby.svg)](https://forthebadge.com)
 
-> This is a telegram bot that i build using ruby. It gives back info about me and it tells a random quote when you ask for it.
+> This is a telegram bot that I build using ruby. It gives back info about me and it tells a random quote when you ask for it.
 
 ![Screenshot](https://github.com/denisdiaconu/telegram_bot/blob/test/Screenshot%20from%202021-02-23%2014-49-32.png)
 
@@ -13,9 +13,10 @@
 - The Telegram Bot API
 
 ## How to Install
-- The first step is to create a Telegram account.(If you already have and account you can skip this step)
+
+- The first step is to create a Telegram account. (If you already have an account you can skip this step)
 - The second step is to search for @BotFather(You can use it to create new bot accounts and manage your existing bots.)
-- The third step is to type '/newbot'.The BotFather will ask you to choose a name and it will give you and API token.You can use this token to control your bot.
+- The third step is to type '/newbot'.The BotFather will ask you to choose a name and it will give you an API token. You can use this token to control your bot.
 - Fork this repo
 - Clone this repo in your local machine.
 - Create a file named token.rb inside the repo.
