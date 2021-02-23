@@ -1,5 +1,5 @@
 require 'telegram/bot'
-require_relative 'anime'
+require_relative 'lib/random'
 token = '1681412553:AAHlaXyUqAGqHfmdGPO2b3f8xhzGiZpzIjU'
 Telegram::Bot::Client.run(token) do |bot|
   bot.listen do |message|
