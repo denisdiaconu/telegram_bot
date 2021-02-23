@@ -5,7 +5,7 @@ Telegram::Bot::Client.run(token) do |bot|
   bot.listen do |message|
     case message.text
     when '/help'
-      bot.api.send_message(chat_id: message.chat.id, text: 'All the existing commands: /help, /info, /qoute, /start, /stop')
+      bot.api.send_message(chat_id: message.chat.id, text: 'All the existing commands: /help, /info, /quote, /start, /stop')
     when '/info'
       bot.api.send_message(chat_id: message.chat.id, text: "My name is Denis Diaconu and i'm a full-stack-web-Developer!")
       bot.api.send_photo(chat_id: message.chat.id, photo: Faraday::UploadIO.new('special.jpg', 'image/jpeg'))
