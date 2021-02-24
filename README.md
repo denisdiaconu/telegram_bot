@@ -5,7 +5,7 @@
 
 > This is a telegram bot that I build using ruby. It gives back info about me and it tells a random quote when you ask for it.
 
-![Screenshot](https://github.com/denisdiaconu/telegram_bot/blob/test/Screenshot%20from%202021-02-23%2014-49-32.png)
+![Screenshot](https://github.com/denisdiaconu/telegram_bot/blob/test/assets/Screenshot%20from%202021-02-23%2014-49-32.png)
 
 ## Built With
 
