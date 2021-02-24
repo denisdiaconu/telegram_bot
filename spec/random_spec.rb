@@ -19,5 +19,9 @@ RSpec.describe NewRandom do
       content = new_link.quotes.sample.empty?
       expect(content).to eql(false)
     end
+    it 'check if the string has content' do
+      content = new_link.quotes.sample.empty?
+      expect(content).not_to eql(true)
+    end
   end
 end

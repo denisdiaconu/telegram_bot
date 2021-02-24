@@ -18,10 +18,13 @@
 - The second step is to search for @BotFather(You can use it to create new bot accounts and manage your existing bots.)
 - The third step is to type '/newbot'.The BotFather will ask you to choose a name and it will give you an API token. You can use this token to control your bot.
 - Fork this repo
-- Clone this repo in your local machine.
-- Create a file named token.rb inside the repo.
-- Inside 'token.rb' create a variable with the name 'TOKEN' that is equal to the API token you got from BotFather.
+- You can install the required gem by typing inside your terminal 'gem install telegram-bot-ruby'(telegram-bot-ruby should be installed now)
+- Clone this repo in your local machine by typing inside your terminal 'clone https://github.com/denisdiaconu/telegram_bot.git'
+- Create a file named token.rb inside the repo.(you can use 'touch token.rb')
+- Inside 'token.rb' create a variable with the name 'TOKEN' that is equal to the API token you got from BotFather.(TOKEN = "put your token here")
 - The bot is now ready to run!
+- You can run it by typing inside your terminal 'ruby bin/main.rb'
+- You can stop the bot using 'Ctrl + c'
 - Tou can go on telegram and search for your bot by the name you gave him before.
 - The bot responds to the commands '/help, /info, /quote, /start, /stop'
 - /start = Says 'hi' to the user.
@@ -33,9 +36,9 @@
 
 ## How to Run Tests
 
-- The first step is to run 'gem install rspec'(RSpec should be installed now)
+- The first step is to install the required gem by typing inside your terminal 'gem install rspec'(RSpec should be installed now)
 - The second step is to cd into the project folder
-- The third step is to run the command 'rspec spec/random_text.rb'
+- The third step is to run the command 'rspec spec/random_spec.rb'
 - All tests are running now.
 
 

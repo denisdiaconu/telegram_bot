@@ -11,7 +11,7 @@ Telegram::Bot::Client.run(TOKEN) do |bot|
     when '/info'
       bot.api.send_message(chat_id: message.chat.id,
                            text: "My name is Denis Diaconu and i'm a full-stack-web-Developer! \nYou can find me on github at: https://github.com/denisdiaconu")
-      bot.api.send_photo(chat_id: message.chat.id, photo: Faraday::UploadIO.new('special.jpg', 'image/jpeg'))
+      bot.api.send_photo(chat_id: message.chat.id, photo: Faraday::UploadIO.new('assets/special.jpg', 'image/jpeg'))
     when '/start'
       bot.api.send_message(chat_id: message.chat.id, text: "Hello, #{message.from.first_name}, you can use /help to see all the commands.")
     when '/quote'
