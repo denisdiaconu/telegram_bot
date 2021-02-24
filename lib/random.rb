@@ -11,8 +11,6 @@ class NewRandom
     Nokogiri::XML(page.body)
   end
 
-  private
-
   def quotes
     xml_content = urls.to_s.split('<entry>')
     array = []

@@ -1,5 +1,3 @@
-require 'httparty'
-require 'nokogiri'
 require_relative '../lib/random'
 
 RSpec.describe NewRandom do
