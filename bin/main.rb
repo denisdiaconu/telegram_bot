@@ -1,3 +1,4 @@
+# rubocop: disable Layout/LineLength
 require 'telegram/bot'
 require_relative '../lib/random'
 require_relative '../token'
@@ -23,3 +24,5 @@ Telegram::Bot::Client.run(TOKEN) do |bot|
     end
   end
 end
+
+# rubocop: enable Layout/LineLength

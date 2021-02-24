@@ -1,3 +1,4 @@
+# rubocop: disable Style/GuardClause
 require 'httparty'
 require 'nokogiri'
 
@@ -9,6 +10,8 @@ class NewRandom
                         })
     Nokogiri::XML(page.body)
   end
+
+  private
 
   def quotes
     xml_content = urls.to_s.split('<entry>')
@@ -30,3 +33,5 @@ class NewRandom
     array
   end
 end
+
+# rubocop: enable Style/GuardClause
