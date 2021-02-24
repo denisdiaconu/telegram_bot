@@ -50,12 +50,6 @@
 - Twitter: [@DenisAndreiDia1](https://twitter.com/DenisAndreiDia1)
 - LinkedIn: [Denis Diaconu](https://www.linkedin.com/in/denis-diaconu-1394091b7/)
 
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
